@@ -10,7 +10,7 @@ module.exports = {
     const incidents = await connection('incidents')
       //a linha abaixo e utilizada quando queremos relacionar dados de duas tabelas:
       .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
-      .limit(5)
+      .limit(20)
       .offset((page - 1) * 5)
       //selecionando todos os campos da tabela incidents + alguns da tabela
       //ongs para que nao haja campos repetidos em um formato de lista.
