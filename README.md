@@ -8,7 +8,7 @@
 <span align="center">  
   
 ![RepoSize](https://img.shields.io/github/repo-size/JsnEvt/BeTheHero)
-![GitHub](https://img.shields.io/github/license/LAZAROK09/omnistack11?color=red&style)
+![GitHub](https://img.shields.io/github/license/JsnEvt/BeTheHero)
 
 </span>
 
